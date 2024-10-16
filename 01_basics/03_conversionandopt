@@ -1,0 +1,27 @@
+//conversion into number
+let score = "33abc"
+console.log(typeof score);
+
+let valueinnumber = Number(score); //changing in to number
+console.log(typeof valueinnumber);
+console.log(valueinnumber);
+
+// changing in to number what if?
+
+// "33" => 33
+//"33abc" => NaN
+// true => 1
+//false => o
+
+//conversion into boolean
+
+let isloggedin = 0
+let booleanisloggedin = Boolean(isloggedin);
+console.log(booleanisloggedin)
+console.log(typeof isloggedin)
+
+//conversion in to strings
+let num = 33
+let stringnum = String(num);
+console.log(typeof(stringnum))
+console.log(stringnum)
