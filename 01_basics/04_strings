@@ -1,0 +1,38 @@
+"hello" + "world" 
+const name = "pratyush"
+const repo= 50
+console.log(name + repo + "khadka")
+
+
+//string interpolation
+
+console.log(`hello my name is ${name} and my repo count is ${repo}`);
+
+//substring
+ let name1 = "pratyush"; 
+ let name2 = name1.substring(0,6)
+ console.log(name2);
+ name3 = name1.substring(0,4);
+ console.log(name3);
+
+//slicing
+//only in slice negative value can be given
+ let anotherstring = name1.slice(-6,4);
+ console.log(anotherstring);
+
+ //trim
+ const  newstring1 = "    pratyush    " ;
+  console.log(newstring1)
+  console.log(newstring1.trim()) // eradicates the spaces
+    //replace
+ const url  = "https:// pratyush.com/ pratyush50khadka"
+ console.log(url .replace("50", "69"));
+ console.log(newstring1.split(3,5))
+
+ 
+
+
+ 
+
+
+

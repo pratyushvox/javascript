@@ -25,3 +25,34 @@ let num = 33
 let stringnum = String(num);
 console.log(typeof(stringnum))
 console.log(stringnum)
+
+// ************** operation ***************//
+
+let value = 4
+let negvalue = -value
+console.log(negvalue)
+
+let str1 = "hello"
+let str2 = " pratyush "
+let str3 = str1+str2; //string concatination
+
+console.log(str3)
+
+let counter = 100
+
+counter++;
+console.log(counter)
+
+++counter;
+console.log(counter);
+
+// prefix and postfix 
+//prefix statement
+let y = 4
+let c = y++
+let d = y+c;
+//postfix statement
+let a = 6
+let b = ++a;
+let e = a+b ;
+console.table([y ,c ,a , b, d , e]);
