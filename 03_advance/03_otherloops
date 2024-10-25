@@ -1,0 +1,29 @@
+// for of
+
+const arr  = [1,2,3,4,5];
+
+for (const val of arr) {
+    console.log(val)
+    
+}
+
+const greetings = "hello world"
+
+for (const str of greetings) {
+    console.log(str)
+    
+}
+
+
+//maps 
+
+const map = new Map()
+map.set('IN', "India")
+map.set('USA', "united state of america")
+
+console.log(map)
+
+for (const key of map) {
+    console.log(key)
+    
+}
